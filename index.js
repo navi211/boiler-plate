@@ -11,4 +11,8 @@ mongoose.connect('mongodb+srv://test:test1234@navi211-uwjet.mongodb.net/test?ret
 
 app.get('/', (req, res) => res.send('안녕하세요'))
 
+app.get('/reg', (req, res) =>{
+  
+})
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
